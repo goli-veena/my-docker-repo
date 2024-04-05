@@ -1,0 +1,11 @@
+---
+version: '3'
+services:
+  web:
+    image: 7674043534/devrepo
+    ports:
+      - "80:80"
+  wbapp:
+    image: 7674043534/prodrepo
+    ports:
+      - "8000:80"
