@@ -34,7 +34,7 @@ pipeline
 						} else if (env.BRANCH_NAME == 'dev') {
 							sh "docker push 7674043534/devrepo:latest"
 						} else {
-							echo 'We didn't find branches'
+							echo "We didn't find branches"
 						}
                 }
             }
