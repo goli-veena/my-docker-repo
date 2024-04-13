@@ -28,3 +28,7 @@ else
   echo "Failed to push Docker images."
   exit 1
 fi
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
