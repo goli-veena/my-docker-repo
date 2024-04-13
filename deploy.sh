@@ -9,7 +9,7 @@ if [ "$CURRENT_BRANCH" == "dev" ]; then
 elif [ "$CURRENT_BRANCH" == "master" ]; then
   # Push the Docker image to the prod repository
   docker push 7674043534/prodrepo:latest
-
+else
   echo "Branch not supported for deployment."
   exit 1
 fi
